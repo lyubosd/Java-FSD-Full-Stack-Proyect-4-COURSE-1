@@ -1,0 +1,123 @@
+body{
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/picture1.jpg");
+}
+:root{
+  font-size: 55%;
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #bb2525;
+  font-weight: 400;
+  color: rgb(241, 234, 234);
+}
+.container{
+  margin: 0 auto;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+}
+h1, h2, h3, h4 {
+  margin-bottom: 1rem;
+}
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.4em;
+  font-size: 7rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #7cf50bf8;
+}
+h1 > span{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+h2{
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.container >*{
+  width: 100%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  font-size: 2rem;
+  padding: 1rem 0;
+  width: 30rem;
+  text-align: center;
+  border: 0.1rem solid #e67e22;
+  margin-bottom: 2.5rem;
+  text-decoration: none;
+  color: white;
+  background-color:#111111;
+  border-radius: 15px;
+  font-weight: 400;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  color:#e67e22;
+  margin-bottom: 2.5rem;
+  width: 30rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(235, 133, 86, 0.5);
+}
+input::placeholder {
+  color: #aaa;
+}
+#question{
+  background: rgba(0,0,0,.5);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}

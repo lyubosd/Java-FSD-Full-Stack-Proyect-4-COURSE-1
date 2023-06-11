@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Squid Game Capital Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../css/score.css" />
+    <link rel="stylesheet" href="../css/quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="quiz" class="justify-center box flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p class="hud-prefix"> Question </p>
+            <h1 class="hud-main-text" id="questionCounter"></h1>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix"> Score </p>
+            <h1 class="hud-main-text" id="score"> 0 </h1>
+          </div>
+        </div>
+        <h2 id="question">Choose the correct answer for the following question.</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-choice="1">Answer 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-choice="2">Answer 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-choice="3">Answer 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-choice="4">Answer 4</p>
+        </div>
+      </div>
+    </div>
+    <script src="../script/quiz.js"></script>
+  </body>
+</html>

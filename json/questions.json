@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "choice1": "Paris",
+    "choice2": "Rome",
+    "choice3": "Madrid",
+    "choice4": "London",
+    "answer": 1
+  },
+  {
+    "question": "What is the capital of Andorra?",
+    "choice1": "Warsaw",
+    "choice2": "Santiago",
+    "choice3": "Lisbon",
+    "choice4": "Andorra la Vella",
+    "answer": 4
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "choice1": "Madrid",
+    "choice2": "San Marino",
+    "choice3": "Paris",
+    "choice4": "Bandar Seri Begawan",
+    "answer": 1
+  },
+  {
+    "question": "What is the capital of Albania?",
+    "choice1": "Tirana",
+    "choice2": "Rome",
+    "choice3": "Kinshasa",
+    "choice4": "Istanbul",
+    "answer": 1
+  },
+  {
+    "question": "What is the capital of China?",
+    "choice1": "Doha",
+    "choice2": "Beijing",
+    "choice3": "Moscow",
+    "choice4": "Lusaka",
+    "answer": 2
+  },
+  {
+    "question": "What is the capital of Germany?",
+    "choice1": "Luxembourg City",
+    "choice2": "Managua",
+    "choice3": "Berlin",
+    "choice4": "Rome",
+    "answer": 3
+  },
+  {
+    "question": "What is the capital of Montenegro?",
+    "choice1": "Mexico City",
+    "choice2": "Podgorica",
+    "choice3": "Oslo",
+    "choice4": "Tirana",
+    "answer": 2
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "choice1": "Paris",
+    "choice2": "Rome",
+    "choice3": "Sofia",
+    "choice4": "Istanbul",
+    "answer": 2
+  },
+  {
+    "question": "What is the capital of Netherlands?",
+    "choice1": "Istanbul",
+    "choice2": "Rome",
+    "choice3": "Madrid",
+    "choice4": "Amsterdam",
+    "answer": 4
+  },
+  {
+    "question": "What is the capital of Bulgaria?",
+    "choice1": "Canberra",
+    "choice2": "Lisboa",
+    "choice3": "Sofia",
+    "choice4": "Bucharest",
+    "answer": 3
+  }
+]
